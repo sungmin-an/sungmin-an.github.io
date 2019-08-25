@@ -3,7 +3,7 @@
 
 body{
  /* Image used */
- background-image: url("https://sungmin-an.github.io/images/twin_peaks.jpg")
+ background-image: url("https://sungmin-an.github.io/images/twin_peaks.jpg");
  
   /* Add the blur effect */
  filter: blur(7px);
