@@ -12,8 +12,8 @@ body, html{
   background-image: url("https://sungmin-an.github.io/images/malibu.jpg");
   
   /* Add the blur effect */
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
+  filter: blur(7px);
+  -webkit-filter: blur(7px);
 
   /* Full height */
   height: 100%;
