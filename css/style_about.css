@@ -1,29 +1,13 @@
 /* Import Roboto text */
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 
-body, html{
-  height: 100%;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-/* Background Image */
-.bg-image{
-  
-  /* image used */
-  background-image: url("https://sungmin-an.github.io/images/twin_peaks.jpg");
-  
+body{
+ /* Image used */
+ background-image: url("https://sungmin-an.github.io/twin_peaks")
+ 
   /* Add the blur effect */
-  filter: blur(7px);
-  -webkit-filter: blur(7px);
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  position: fixed;
+ filter: blur(7px);
+ -webkit-filter: blur(7px);
 }
 
 
