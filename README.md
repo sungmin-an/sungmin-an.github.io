@@ -1,2 +1,2 @@
 # sungmin-an.github.io
-Sungmin An's Public Webpage
+This is the HTML and CSS codebase for Sungmin An's personal website (https://sungmin.an.github.io/)
