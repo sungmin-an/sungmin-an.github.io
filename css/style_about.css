@@ -1,29 +1,85 @@
 /* Import Roboto text */
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 
-
-/* Pre-lims */
 body, html{
   height: 100%;
 }
+
 * {
   box-sizing: border-box;
 }
 
-
-
-/* Sets top  image to Twin Peaks */
-.top_image{
-  /* Use this image */
+/* Background Image */
+.bg-image{
+  
+  /* image used */
   background-image: url("https://sungmin-an.github.io/images/twin_peaks.jpg");
   
-  /* Set positioning to be fixed even when one is scrolling */
-  position: fixed; 
-  height: 30%;
- 
- 
   /* Add the blur effect */
   filter: blur(7px);
   -webkit-filter: blur(7px);
-  
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: scale(1.1); 
+}
+
+
+
+/* Typewriter Effect */
+.typewriter{
+  overflow: hidden; /* Ensures content is hidden until the animation */
+  border-right: .15em solid white; /* Typewriter cursor */
+  white-space: nowrap;
+  margin: 0 auto; /* Gives scrolling effect as typing happens */
+  letter-spacing: .1em; 
+  animation: 
+    typing 3.5s steps(90, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* Typing effect */ 
+@keyframes typing{
+  from{width: 0} 
+  to{width: 100%} 
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret{
+  from, to{border-color: transparent} 
+  50% {border-color: white;}
+}
+
+
+
+/* Adds style to navigation menu */
+ ul {
+  z-index: 4;
+  position: absolute;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 130px;
+  background-color: transparent;
+  position: fixed; 
+  right: 30px;
+}
+
+li a {
+  display: block;
+  color: #f1f1f1;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
+  color: white;
 }
