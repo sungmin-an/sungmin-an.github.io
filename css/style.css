@@ -1,7 +1,7 @@
 .bg-image{
   
   /* image used */
-  background-image: url("https://sungmin-an/github.io/images/malibu.jpg");
+  background-image: url("https://sungmin-an.github.io/images/malibu.jpg");
   
   /* Add the blur effect */
   filter: blur(8px);
