@@ -1,4 +1,21 @@
 /* Import Roboto text */
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 
-/* Sets top  image
+/* Sets top  image to Twin Peaks */
+.top_image{
+  /* Use this image */
+  background-image: url("https://sungmin-an.github.io/images/twin_peaks.jpg")
+  
+  /* Set positioning to be fixed even when one is scrolling */
+  position: fixed; 
+  bottom: 150px;
+  height: 30%;
+  
+  /* Set the ordering */
+  z-index: -1; 
+ 
+  /* Add the blur effect */
+  filter: blur(7px);
+  -webkit-filter: blur(7px);
+  
+}
