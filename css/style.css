@@ -53,10 +53,10 @@ body, html{
   border-right: .15em solid orange; /* Typewriter cursor */
   white-space: nowrap; /* Keeps content on same line */
   margin: 0 auto; /* Gives scrolling effect as typing happens */
-  letter-spacing: .15em; 
+  letter-spacing: .1em; 
   animation: 
     typing 3.5s steps(40, end),
-    blink-care .75s step-end infinite;
+    blink-caret .75s step-end infinite;
 }
 
 /* Typing effect */ 
