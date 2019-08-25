@@ -19,7 +19,6 @@ body, html{
   
   /* Set positioning to be fixed even when one is scrolling */
   position: fixed; 
-  bottom: 150px;
   height: 30%;
   
   /* Set the ordering */
