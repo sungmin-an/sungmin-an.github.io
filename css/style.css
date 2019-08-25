@@ -50,12 +50,12 @@ body, html{
 /* Typewriter Effect */
 .typewriter{
   overflow: hidden; /* Ensures content is hidden until the animation */
-  border-right: .15em white; /* Typewriter cursor */
+  border-right: .15em solid orange; /* Typewriter cursor */
   white-space: nowrap; /* Keeps content on same line */
   margin: 0 auto; /* Gives scrolling effect as typing happens */
   letter-spacing: .15em; 
   animation: 
-    typing 2s steps(40, end),
+    typing 3.5s steps(40, end),
     blink-care .75s step-end infinite;
 }
 
@@ -68,6 +68,6 @@ body, html{
 /* The typewriter cursor effect */
 @keyframes blink-caret{
   from, to{border-color: transparent} 
-  50% {border-color:white;}
+  50% {border-color: orange;}
 }
 
