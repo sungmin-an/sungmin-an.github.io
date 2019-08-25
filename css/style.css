@@ -22,6 +22,7 @@ body, html{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  transform: scale(1.1); 
 }
 
 /* Position text in the middle of the page/image */
