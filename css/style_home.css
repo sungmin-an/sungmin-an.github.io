@@ -83,21 +83,20 @@ body, html{
   padding: 0;
   width: 130px;
   background-color: transparent;
-  font-family: "Roboto", sans-serif;
-  color: white; 
   position: fixed; 
   right: 30px;
 }
 
 li a {
   display: block;
-  color: #000;
+  color: white;
   padding: 8px 16px;
   text-decoration: none;
+  font-family: "Roboto", sans-serif;
 }
 
 /* Change the link color on hover */
 li a:hover {
-  background-color: #555;
+  background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
   color: white;
 }
