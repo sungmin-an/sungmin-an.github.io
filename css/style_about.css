@@ -1,6 +1,17 @@
 /* Import Roboto text */
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 
+
+/* Pre-lims */
+body, html{
+  height: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+
 /* Sets top  image to Twin Peaks */
 .top_image{
   /* Use this image */
