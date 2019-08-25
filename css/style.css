@@ -44,7 +44,7 @@ body, html{
   padding: 20px;
   text-align: center;
   font-family: "Roboto", sans-serif;
-  font-weight: 300px
+  font-weight: 300px;
 }
 
 
@@ -83,6 +83,10 @@ body, html{
   padding: 0;
   width: 200px;
   background-color: transparent;
+  font-family: "Roboto", sans-serif;
+  color: white; 
+  position: fixed; 
+  right: 30px;
 }
 
 li a {
