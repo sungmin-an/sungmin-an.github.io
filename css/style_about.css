@@ -20,9 +20,7 @@ body, html{
   /* Set positioning to be fixed even when one is scrolling */
   position: fixed; 
   height: 30%;
-  
-  /* Set the ordering */
-  z-index: -1; 
+ 
  
   /* Add the blur effect */
   filter: blur(7px);
