@@ -43,9 +43,11 @@ body, html{
   padding: 20px;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
 }
 
+.sub-text{
+  animation: showup 7s infinite;
+}
 
 body {
   text-align:center;
