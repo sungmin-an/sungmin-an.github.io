@@ -4,7 +4,7 @@
 /* Sets top  image to Twin Peaks */
 .top_image{
   /* Use this image */
-  background-image: url("https://sungmin-an.github.io/images/twin_peaks.jpg")
+  background-image: url("https://sungmin-an.github.io/images/twin_peaks.jpg");
   
   /* Set positioning to be fixed even when one is scrolling */
   position: fixed; 
